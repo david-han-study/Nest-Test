@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/test')
+  @Get('/api/test')
   test(): string {
     console.log('요청 들어옴!');
     return 'test 성공';
