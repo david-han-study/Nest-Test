@@ -12,6 +12,7 @@ export class AppController {
 
   @Get('/test')
   test(): string {
+    console.log('요청 들어옴!');
     return 'test 성공';
   }
 }
